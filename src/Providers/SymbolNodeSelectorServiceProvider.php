@@ -35,7 +35,7 @@ class SymbolNodeSelectorServiceProvider extends ServiceProvider
 
         // Publish configuration file
         $this->publishes([
-            __DIR__ . '/../../config/symbolnodeselector.php' => config_path('symbolnodeselector.php'),
+            __DIR__ . '/../config/symbolnodeselector.php' => config_path('symbolnodeselector.php'),
         ], 'config');
     }
 }
