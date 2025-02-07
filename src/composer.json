@@ -1,0 +1,28 @@
+{
+    "name": "ishidad2/symbol-node-selector",
+    "version": "1.0.0",
+    "description": "Symbol active node selection",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ishidad2\\SymbolNodeSelector\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^12.0",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ishidad2\\SymbolNodeSelector\\Providers\\SymbolNodeSelectorServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/support": "^11.41",
+        "illuminate/config": "^11.41"
+    }
+}
