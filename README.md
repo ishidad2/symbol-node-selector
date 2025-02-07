@@ -45,6 +45,8 @@ return [
 アクティブなノードを取得する例:
 
 ```php
+require_once __DIR__ . 'vendor/autoload.php';
+
 use Ishidad2\SymbolNodeSelector\SymbolNodeSelector;
 
 $selector = new SymbolNodeSelector();

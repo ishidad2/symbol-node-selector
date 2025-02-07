@@ -8,6 +8,11 @@
             "Ishidad2\\SymbolNodeSelector\\": "src/"
         }
     },
+    "keywords": [
+        "php",
+        "symbol",
+        "blockchain"
+    ],
     "require": {
         "illuminate/support": "^10 || ^11",
         "illuminate/config": "^10 || ^11",
