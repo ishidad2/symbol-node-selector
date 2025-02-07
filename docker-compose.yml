@@ -7,7 +7,7 @@ services:
       args:
         - TZ=Asia/Tokyo
     volumes:
-      - ./src:/var/www
+      - ./:/var/www
       - ./logs:/var/log/php
       - ./docker/php/php.ini:/usr/local/etc/php/php.ini
     ports:
