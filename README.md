@@ -49,8 +49,8 @@ use Ishidad2\SymbolNodeSelector\SymbolNodeSelector;
 
 $selector = new SymbolNodeSelector();
 
-echo "Mainnet Node: " . $selector->getMainnetNode();
-echo "Testnet Node: " . $selector->getTestnetNode();
+echo "Mainnet Node: " . $selector->getActiveMainnetNode();
+echo "Testnet Node: " . $selector->getActiveTestnetNode();
 ```
 
 ## テスト

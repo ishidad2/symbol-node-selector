@@ -14,7 +14,7 @@ class SymbolNodeSelectorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../../config/symbolnodeselector.php', 'symbolnodeselector');
+        $this->mergeConfigFrom(__DIR__ . '/../config/symbolnodeselector.php', 'symbolnodeselector');
     }
 
     /**
